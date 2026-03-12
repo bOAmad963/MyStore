@@ -1,0 +1,26 @@
+{
+  "name": "nuxt3-e-store-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "lint": "eslint .",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.5",
+    "@vueuse/core": "^10.11.0",
+    "@vueuse/nuxt": "^14.2.1",
+    "nuxt": "^3.13.0",
+    "sass": "^1.77.0"
+  },
+  "devDependencies": {
+    "@nuxt/eslint-config": "^0.7.5",
+    "eslint": "^9.0.0",
+    "eslint-plugin-vue": "^9.26.0",
+    "typescript": "^5.6.0",
+    "vue-tsc": "^2.0.0"
+  }
+}
