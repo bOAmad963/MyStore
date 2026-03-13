@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "node ./node_modules/nuxi/bin/nuxi.mjs dev",
-    "build": "node ./node_modules/nuxi/bin/nuxi.mjs build",
-    "preview": "node ./node_modules/nuxi/bin/nuxi.mjs preview",
+    "dev": "npx nuxi dev",
+    "build": "npx nuxi build",
+    "preview": "npx nuxi preview",
     "lint": "eslint .",
-    "generate": "node ./node_modules/nuxi/bin/nuxi.mjs generate"
+    "generate": "npx nuxi generate"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.5.5",
